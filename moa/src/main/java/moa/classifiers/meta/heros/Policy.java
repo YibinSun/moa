@@ -1,4 +1,4 @@
-package moa.classifiers.meta.policy;
+package moa.classifiers.meta.heros;
 
 import java.util.LinkedHashSet;
 import java.util.List;
@@ -9,7 +9,7 @@ import java.util.stream.IntStream;
 
 import com.github.javacliparser.FloatOption;
 import com.github.javacliparser.IntOption;
-import moa.classifiers.meta.Heros.PoolItem;
+import moa.classifiers.meta.heros.Heros.PoolItem;
 
 /**
  * <b>Policy </b><br>

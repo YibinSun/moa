@@ -1,4 +1,4 @@
-package moa.classifiers.meta;
+package moa.classifiers.meta.heros;
 
 import com.github.javacliparser.*;
 
@@ -12,13 +12,11 @@ import moa.classifiers.core.driftdetection.ADWIN;
 import moa.core.Measurement;
 import moa.core.ObjectRepository;
 import moa.core.Utils;
-import moa.options.AbstractOptionHandler;
 import moa.options.ClassOption;
 import moa.tasks.TaskMonitor;
 import moa.classifiers.trees.HoeffdingTree;
 import moa.classifiers.lazy.kNN;
 import moa.classifiers.deeplearning.MLP;
-import moa.classifiers.meta.policy.Policy;
 
 import java.util.*;
 
